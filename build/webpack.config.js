@@ -64,7 +64,8 @@ module.exports = {
               implementation: sass,
               sassOptions: {
                 fiber: fibers,
-              }
+              },
+              prependData: `@import "~/styles/main.scss"`,
             },
           },
         ],
