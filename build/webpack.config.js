@@ -35,7 +35,7 @@ module.exports = {
     disableHostCheck: true,
     clientLogLevel: 'info',
     sockPort: config.sockPort,
-    publicPath: '/',
+    publicPath: config.paths.publicPath,
     watchOptions: {
       aggregateTimeout: 300,
       poll: 1000,
