@@ -1,0 +1,57 @@
+{
+  "name": "vuetify-theme-repro",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config build/webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharsie/vuetify-theme-repro.git"
+  },
+  "keywords": [
+    "vuetify"
+  ],
+  "author": "Arnie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sharsie/vuetify-theme-repro/issues"
+  },
+  "homepage": "https://github.com/Sharsie/vuetify-theme-repro#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@vue/babel-preset-app": "^3.11.0",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.2.1",
+    "css-loader": "^3.2.0",
+    "deepmerge": "^4.0.0",
+    "fibers": "^4.0.1",
+    "fork-ts-checker-webpack-plugin": "^1.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "sass": "^1.22.10",
+    "sass-loader": "^8.0.0",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.6.2",
+    "vue-class-component": "^7.1.0",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vuetify": "^2.0.11"
+  }
+}
